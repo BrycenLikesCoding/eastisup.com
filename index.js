@@ -8,5 +8,3 @@ app.get('/', (req, res) => {
 app.get('/projects', (req, res) => {
   res.sendFile('projects.html', {root: __dirname});
 });
-
-app.listen(8080);
