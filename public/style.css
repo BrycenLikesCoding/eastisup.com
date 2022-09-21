@@ -1,0 +1,46 @@
+html, body {
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #fff;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  html {
+    filter: invert(1);
+  }
+}
+
+.hi {
+  font-size: 7em;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.projects {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
