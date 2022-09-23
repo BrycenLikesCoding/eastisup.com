@@ -161,12 +161,12 @@ border-radius: 1028px;
   }
   
   progress::-webkit-progress-value {
-    background: #9bddff;
+    background: #A72C2C;
     border-radius: 1028px;
   }
 
   progress::-moz-progress-bar{
-    background: #9bddff;
+    background: #A72C2C;
     border-radius: 1028px;
   }
 
