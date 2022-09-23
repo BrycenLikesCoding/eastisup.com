@@ -153,6 +153,7 @@ border-radius: 1028px;
     height: 20px;
     border-radius: 1028px;
     box-shadow: 5px 5px 5px black;
+    border: solid 5px black;
   }
   
   progress::-webkit-progress-bar {
