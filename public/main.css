@@ -161,19 +161,48 @@ border-radius: 1028px;
   progress::-webkit-progress-bar {
     background: #464950;
     border-radius: 1028px;
-      
+     background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );   
   }
   
   progress::-webkit-progress-value {
     background: #A72C2C;
     border-radius: 1028px;
       border: solid black 1px;
+        background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
   }
 
   progress::-moz-progress-bar{
     background: #A72C2C;
     border-radius: 1028px;
     border: solid black 1px;
+        background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
   }
 
 /* nav ul li {
