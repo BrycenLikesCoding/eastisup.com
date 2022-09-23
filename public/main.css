@@ -64,6 +64,8 @@ footer {
     text-shadow: 5px 5px 5px #000;
 }
 
+label { font-size: 30px; }
+
 hr {
     height: 1px;
     margin: 50px 0;
