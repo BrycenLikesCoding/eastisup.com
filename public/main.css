@@ -160,6 +160,7 @@ border-radius: 1028px;
   
   progress::-webkit-progress-bar {
     background: #464950;
+      border: solid black 5px;
     border-radius: 1028px;
      background-image: linear-gradient(
     -45deg,
@@ -176,7 +177,7 @@ border-radius: 1028px;
   progress::-webkit-progress-value {
     background: #A72C2C;
     border-radius: 1028px;
-      border: solid black 1px;
+      border: solid black 5px;
         background-image: linear-gradient(
     -45deg,
     rgba(255, 255, 255, 0.2) 25%,
@@ -192,7 +193,7 @@ border-radius: 1028px;
   progress::-moz-progress-bar{
     background: #A72C2C;
     border-radius: 1028px;
-    border: solid black 1px;
+    border: solid black 5px;
         background-image: linear-gradient(
     -45deg,
     rgba(255, 255, 255, 0.2) 25%,
