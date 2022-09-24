@@ -160,7 +160,6 @@ border-radius: 1028px;
   
   progress::-webkit-progress-bar {
     background: #464950;
-      border: solid black 5px;
     border-radius: 1028px;
      background-image: linear-gradient(
     -45deg,
@@ -172,12 +171,12 @@ border-radius: 1028px;
     transparent 75%,
     transparent
   );   
+      animation: move 5s infinite;
   }
   
   progress::-webkit-progress-value {
     background: #A72C2C;
     border-radius: 1028px;
-      border: solid black 5px;
         background-image: linear-gradient(
     -45deg,
     rgba(255, 255, 255, 0.2) 25%,
@@ -188,12 +187,12 @@ border-radius: 1028px;
     transparent 75%,
     transparent
   );
+      animation: move 5s infinite;
   }
 
   progress::-moz-progress-bar{
     background: #A72C2C;
     border-radius: 1028px;
-    border: solid black 5px;
         background-image: linear-gradient(
     -45deg,
     rgba(255, 255, 255, 0.2) 25%,
@@ -204,7 +203,17 @@ border-radius: 1028px;
     transparent 75%,
     transparent
   );
+      animation: move 5s infinite;
   }
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
 
 /* nav ul li {
     font-size: 15px;
