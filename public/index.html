@@ -1,122 +1,195 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<!doctype html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>
             kit kat
         </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+        <link rel='stylesheet' href='styles/main.css'>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <nav class="nav">
-            <div id="title container">
-                kit kat
-            </div>
-            <!-- <ul><li>
-                <a href="/projects/">
-                    projects
-                </a>
-            </li></ul> -->
-        </nav>
-        <div class="content">
-            <h1>
-                hi
-            </h1>
-            <h3>
+        <nav></nav>
+        <div class='content'>
+            <h1 class='big' data-aos='fade-up'>
+                Hi! I'm Kit Kat.
+                <br />
+                <img src="https://cdn.eastisup.com/profile.png" class='pfp'>
+                <br />
                 👋
-            </h3>
-
-            <hr />
-
-            <span class="divider">
-                skills
-            </span>
-            <br />
-            <label for="html">HTML</label><br/>
-            <progress name="html" value="1" max="1"> 100% </progress>
-            <br />
-            <br />
-            <label for="css">CSS&nbsp;&nbsp;&nbsp;</label><br/>
-            <progress name="css" value="1" max="2"> 50% </progress>
-            <br />
-            <br />
-            <label for="javascript">JavaScript</label><br/>
-            <progress name="javascript" value="3" max="4"> 75% </progress>
-            <br />
-            <br />
-            <label for="csharp">C#</label><br/>
-            <progress name="csharp" value="25" max="100"> 25% </progress>
-            <br />
-            <br />
-            <label for="jquery">jQuery</label><br />
-            <progress name="jquery" value="1" max="1"> 100% </progress>
-            <br />
-            <br />
-            <label for="python">Python</label><br/>
-            <progress name="python" value="1" max="1"> 99% </progress>
-            <br />
-            <br />
-            <label for="coffeescript">Coffeescript</label><br/>
-            <progress name="coffeescript" value="1" max="1"> 100% </progress>
-            <br />
-            <br />
-            <label for='nodejs'>Node.js</label><br />
-            <progress name="nodejs" value="0.5" max="1"> 50% </progress>
-            <br />
-            <br />
-            <label for='react'>React</label><br />
-            <progress name="react" value="50" max="100"> 50% </progress>
-            <hr />
-            <span class='divider'> projects </span> <br />
-            <i> none so far - come back soon </i>
-            <hr />
-            <span class="divider">
-                hobbies
-            </span>
-            <br />
-            <br />
-            <span class="epic_cool_moment">
-                <i>
-                    <b>
-                        programming
-                    </b>
-                </i>
-            </span>
-            <br />
-            <br />
-            <span class="omori_is_epic">
-                video games 
-            </span>
-            <hr />
-            <span class="divider">
-                contact
-            </span>
-            <br>
-            <a href="mailto:hi@eastisup.com">
-                <i class="fa-solid fa-envelope"></i>
-            </a>
-            <a href="https://spooky.eastisup.com">
-                <i class="fa-solid fa-skull-crossbones"></i>
-            </a>
-            <br />
-            <hr />
-            <h1>
-                ❌ we're sorry to see you go, come back soon ❌
             </h1>
+            <h1 data-aos='fade-up'>Skills</h1>
+            <div id='skills'>
+                <div id='skill-container' data-aos="flip-right">
+                    <a href="https://python.org">
+                        <img src="https://cdn.eastisup.com/python.png" width="200" class='skill'>
+                    </a>
+                    <br />
+                    <label>
+                        <b class='title'>
+                            Python
+                        </b>
+                        <br />
+                        100%
+                    </label>
+                </div>
+                <br />
+                <br />
+                <div id='skill-container' data-aos="flip-right">
+                    <img src="https://cdn.eastisup.com/js.png" width="200" class='skill' title="I don't think JavaScript has an official website.">
+                    <br />
+                    <label>
+                        <b class='title'>
+                            JavaScript
+                        </b>
+                        <br />
+                        100%
+                    </label>
+                </div>
+                <br />
+                <br />
+                <div id='skill-container' data-aos="flip-right">
+                    <a href="https://reactjs.org">
+                        <img src="https://cdn.eastisup.com/react.png" width="200" class='skill'>
+                    </a>
+                    <br />
+                    <label>
+                        <b class='title'>
+                            React
+                        </b>
+                        <br />
+                        80%
+                    </label>
+                </div>
+                <br />
+                <br />
+                <div id='skill-container' data-aos="flip-right">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                        <img src="https://cdn.eastisup.com/html - css.png" width="200" class='skill'>
+                    </a>
+                    <br />
+                    <label>
+                        <b class='title'>
+                            HTML5 / CSS3
+                        </b>
+                        <br />
+                        100%
+                    </label>
+                </div>
+                <div id='skill-container' data-aos="flip-right">
+                    <a href="https://coffeescript.org/">
+                        <img src="https://cdn.eastisup.com/coffee.png" width="200" class='skill'>
+                    </a>
+                    <br />
+                    <label>
+                        <b class='title'>
+                            CoffeeScript
+                        </b>
+                        <br />
+                        100%
+                    </label>
+                </div>
+                <div id='skill-container' data-aos="flip-right">
+                    <a href="https://jquery.com/">
+                        <img src="https://cdn.eastisup.com/jquery.gif" width="200" class='skill'>
+                    </a>
+                    <br />
+                    <label>
+                        <b class='title'>
+                            jQuery
+                        </b>
+                        <br />
+                        100%
+                    </label>
+                </div>
+            </div>
+            <h1 data-aos='fade-left'>Projects</h1>
+            <div id='Projects'>
+                <div class='project' data-aos="flip-left">
+                    <div class='card astral'>
+                        <div id="astral-bg">
+                            <h1>
+                                Astral
+                            </h1>
+                            <h3>
+                                A link shortener made using Datasing.
+                            </h3>
+                            <a href='https://astral.eastisup.com' class='view'>
+                                View Online
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class='project' data-aos="flip-left">
+                    <div class='card now-playing'>
+                        <h1>
+                            Now Playing
+                        </h1>
+                        <h3>
+                           See what I am currently listening to on Spotify.
+                        </h3>
+                        <a href='https://music.eastisup.com' class='view'>
+                            View Online
+                        </a>
+                    </div>
+                </div>
+                <div class='project' data-aos="flip-left">
+                    <div class='card pixi'>
+                        <h1>
+                            Pixi
+                        </h1>
+                        <h3>
+                            Base64 URL Shortener.
+                        </h3>
+                        <a href="https://p1xi.cf" class='view'>
+                            View Online
+                        </a>
+                    </div>
+                </div>
+                <div class='project' data-aos="flip-left">
+                    <div class='card sock'>
+                        <h1>
+                            Sock
+                        </h1>
+                        <h3>
+                            Python CLI based chat bot.
+                        </h3>
+                        <a href="https://replit.com/@JaxelTheAxel/Sock-or-Chat-Bot?v=1" class='view'>
+                            View Online
+                        </a>
+                    </div> 
+                </div>
+            </div>
+            <div class='hobbies'>
+                <h1 data-aos="zoom-in">
+                    Hobbies
+                </h1>
+                <p data-aos="zoom-out">
+                    My hobbies include <span class='card-but-cool'>photo editing, programming, photography, <span class='video-games'>video games</span>, and fixing code.</span>
+                </p>
+            </div>
+            <div class='contact'>
+                <h1>
+                    Contact
+                </h1>
+                <p>
+                    E-Mail: <a href="mailto:hi@eastisup.com">hi@eastisup.com</a><br />
+                    Spooky? <a href="https://spooky.eastisup.com">spooky.eastisup.com</a>
+                </p>
+            </div>
+
+
             <footer>
-                copyright &copy; 2022 | kit kat 
+                &copy; 2022 kit kat 
             </footer>
         </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            // Twemoji
+            twemoji.parse(document.body);
+
+            // Animate On Scroll
+            AOS.init();
+        </script>
     </body>
 </html>
